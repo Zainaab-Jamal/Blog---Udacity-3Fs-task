@@ -1,0 +1,67 @@
+/* Large screens (1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1140px;
+      margin: 0 auto;
+  }
+}
+
+/* Medium screens (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+      max-width: 960px;
+      margin: 0 auto;
+  }
+}
+
+/* Small screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+      max-width: 720px;
+      margin: 0 auto;
+  }
+
+  #home h1 {
+      font-size: 2.5rem;
+  }
+
+  #home p {
+      font-size: 1rem;
+  }
+}
+
+/* Extra small screens (up to 767px) */
+@media (max-width: 767px) {
+  .container {
+      width: 100%;
+      padding: 0 1rem;
+  }
+
+  #navbar {
+      flex-direction: column;
+      padding: 1rem;
+  }
+
+  .nav-links ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 1rem;
+  }
+
+  #home h1 {
+      font-size: 2rem;
+  }
+
+  #home p {
+      font-size: 0.9rem;
+  }
+
+  h2 {
+      font-size: 2rem;
+  }
+
+  .article-grid, .project-grid {
+      grid-template-columns: 1fr;
+  }
+}

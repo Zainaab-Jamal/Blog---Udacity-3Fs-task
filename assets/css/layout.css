@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+.article-grid, .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+footer {
+    background-color: #181C14;
+    color: #ECDFCC;
+    text-align: center;
+    padding: 1rem;
+}

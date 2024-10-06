@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zainab Rateb - personal blog</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/typography.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="logo">
+          <img
+            src="assets/images/photo-removebg-preview.png"
+            alt="Zainab Rateb"
+            class="profile-picture"
+          />
+          <a href="#home">Zainab Rateb</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Welcome to My Blog</h1>
+        <p>Exploring ideas, sharing experiences, and learning together.</p>
+      </section>
+      <!------------------------------ Start of advice ------------------------------>
+
+      <section id="advice">
+        <h2>Daily Advice</h2>
+        <div id="advice-content">
+          <p id="advice-text">Click the button to get some advice!</p>
+          <button id="get-advice" class="btn">Get Advice</button>
+        </div>
+        <p id="advice-count" class="mt-6 text-gray-600">
+          You have read <strong class="text-blue-600">0</strong> pieces of
+          advice :)
+        </p>
+      </section>
+      <!------------------------------ End of advice ------------------------------>
+
+      <!------------------------------ Start of articles ------------------------------>
+
+      <section id="articles">
+        <h2>Latest Articles</h2>
+        <div class="article-grid">
+          <article>
+            <h3>10 Powerful Tools For Faster Web Development</h3>
+            <p>
+              10 fantastic web dev tools to level up your productivity and
+              achieve your coding goals faster than ever.
+            </p>
+            <a
+              href="https://medium.com/coding-beauty/web-dev-tools-2fc3e36e5b69"
+              target="_blank"
+              class="btn"
+              >Read More</a
+            >
+          </article>
+          <article>
+            <h3>Best Practices for Speeding Up Your Web Site</h3>
+            <p>
+              The Exceptional Performance team has identified a number of best
+              practices for making web pages fast. The list includes 35 best
+              practices divided into 7 categories.
+            </p>
+            <a
+              href="https://developer.yahoo.com/performance/rules.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAAY4FWbgzQZiAQALxNKqJN3d7Hj7-uZKj9iaTbs-H7KePtOnLwGlVX9C413TM-hCeexMi-4fgCOklaTUUdZIZZIgRsrKE3j8F67fqwn21OB4V6RqyCSHvlxBSEKCPNMGUBx97LPXn38xqaaeikOaQ3rRrwnqX4xz14grg16gD8jQ"
+              target="_blank"
+              class="btn"
+              >Read More</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <!------------------------------ End of articles ------------------------------>
+      <!------------------------------ start of projects ------------------------------>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Fresh cart</h3>
+            <p>An e-commerce SPA using React</p>
+            <a
+              href="https://github.com/Zainaab-Jamal/Fresh-Cart"
+              class="btn"
+              target="_blank"
+              >View on GitHub</a
+            >
+          </article>
+          <article class="project-card">
+            <h3>Get advice</h3>
+            <p>
+              A simple React application for fetching and displaying advice,
+              styled with Tailwind CSS.
+            </p>
+            <a
+              href="https://github.com/Zainaab-Jamal/Get-Advice"
+              class="btn"
+              target="_blank"
+              >View on GitHub</a
+            >
+          </article>
+        </div>
+      </section>
+      <!------------------------------ End of projects ------------------------------>
+
+      <!------------------------------ Start of contact ------------------------------>
+
+      <section id="contact">
+        <h2>Get in Touch</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </section>
+      <!------------------------------ End of contact ------------------------------>
+    </main>
+    <!------------------------------ Footer ------------------------------>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Zainab Rateb. All rights reserved.</p>
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/zainab-gamal-rateb/"
+              target="_blank"
+              aria-label="LinkedIn"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://twitter.com/" target="_blank" aria-label="Twitter"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/Zainaab-Jamal"
+              target="_blank"
+              aria-label="GitHub"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://leetcode.com/"
+              target="_blank"
+              aria-label="LeetCode"
+              >LeetCode</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- script -->
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
