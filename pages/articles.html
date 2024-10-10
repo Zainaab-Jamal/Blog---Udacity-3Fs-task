@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+
+
+
+  <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,12 +19,13 @@
       rel="stylesheet"
     />
     <!-- Link CSS -->
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/typography.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/components.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/typography.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/responsive.css" />
+    
     
   </head>
   <body>
@@ -29,42 +33,54 @@
       <nav id="navbar">
         <div class="logo">
           <img
-            src="images/photo-removebg-preview.png"
+            src="../images/photo-removebg-preview.png"
             alt="Zainab Rateb"
             class="profile-picture"
           />
-          <a href="#home">Zainab Rateb</a>
+          <a href="../index.html">Zainab Rateb</a>
         </div>
         <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="pages/articles.html">Articles</a></li>
-          <li><a href="pages/projects.html">Projects</a></li>
-          <li><a href="pages/contact.html">Contact</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section id="home">
-        <h1>Welcome to My Blog</h1>
-        <p>Exploring ideas, sharing experiences, and learning together.</p>
-      </section>
-      <!------------------------------ Start of advice ------------------------------>
-  
-      <section id="advice">
-        <h2>Daily Advice</h2>
-        <div id="advice-content">
-          <p id="advice-text">Click the button to get some advice!</p>
-          <button id="get-advice" class="btn">Get Advice</button>
+    <section id="articles">
+        <h2>Latest Articles</h2>
+        <div class="article-grid">
+          <article>
+            <h3>10 Powerful Tools For Faster Web Development</h3>
+            <p>
+              10 fantastic web dev tools to level up your productivity and
+              achieve your coding goals faster than ever.
+            </p>
+            <a
+              href="https://medium.com/coding-beauty/web-dev-tools-2fc3e36e5b69"
+              target="_blank"
+              class="btn"
+              >Read More</a
+            >
+          </article>
+          <article>
+            <h3>Best Practices for Speeding Up Your Web Site</h3>
+            <p>
+              The Exceptional Performance team has identified a number of best
+              practices for making web pages fast. The list includes 35 best
+              practices divided into 7 categories.
+            </p>
+            <a
+              href="https://developer.yahoo.com/performance/rules.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAAY4FWbgzQZiAQALxNKqJN3d7Hj7-uZKj9iaTbs-H7KePtOnLwGlVX9C413TM-hCeexMi-4fgCOklaTUUdZIZZIgRsrKE3j8F67fqwn21OB4V6RqyCSHvlxBSEKCPNMGUBx97LPXn38xqaaeikOaQ3rRrwnqX4xz14grg16gD8jQ"
+              target="_blank"
+              class="btn"
+              >Read More</a
+            >
+          </article>
         </div>
-        <p id="advice-count" class="mt-6 text-gray-600">
-          You have read <strong class="text-blue-600">0</strong> pieces of
-          advice :)
-        </p>
       </section>
-  
-    </main>
-   
+    
 
     <footer>
       <div class="footer-content">
@@ -104,6 +120,6 @@
     </footer>
 
     <!-- script -->
-    <script src="js/index.js"></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
