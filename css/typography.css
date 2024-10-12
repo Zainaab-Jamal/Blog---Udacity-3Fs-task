@@ -1,0 +1,22 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3C3D37;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+    color: #181C14;
+}
+
+.logo a {
+    font-family: 'Dancing Script', cursive;
+}
+
+a {
+    color: #697565;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #181C14;
+}
