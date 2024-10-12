@@ -1,22 +1,53 @@
+
+.article-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 1.5rem;
+justify-content: center;
+
+}
+
+.project-card {
+background-color: #ECDFCC;
+padding: 1.5rem;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+width: 300px;
+text-align: center;
+}
+
+.project-card img.article-img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+margin-bottom: 1rem;
+}
+
+.project-card h3 {
+font-size: 1.5rem;
+margin-bottom: 1rem;
+}
+
+.project-card p {
+margin-bottom: 1rem;
+}
+
 .btn {
-    display: inline-block;
-    background-color: #697565;
-    color: #ECDFCC;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+display: inline-block;
+background-color: #697565;
+color: #ECDFCC;
+padding: 0.5rem 1rem;
+border-radius: 4px;
+transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #181C14;
+background-color: #181C14;
 }
 
-.article-grid article, .project-card {
-    background-color: #ECDFCC;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+
+
+/* test */
 
 form {
     display: grid;
